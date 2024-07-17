@@ -77,6 +77,58 @@ a {
   font-size: 16px;
 }
 .hero {
-  height: 96vh;
+  height: 100vh;
   background-color: #111111;
+  padding: 0px;
+}
+.win-or-air {
+  margin-top: -30px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.buttons {
+  margin-top: 20px;
+}
+.button-main {
+  background-color: black;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 30px;
+  color: white;
+  font-size: 16px;
+  border: none;
+}
+.button-main:hover {
+  background-color: #707072;
+}
+.shop {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  color: white;
+}
+.shop-button {
+  background-color: white;
+  color: black;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 30px;
+  border: none;
+  margin-top: 30px;
+  font-size: 16px;
+}
+.shop-button:hover {
+  background-color: #cacacb;
+}
+.main-shop {
+  display: flex;
+  gap: 10px;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+.inner-box {
+  background-color: #f6f6f6;
 }
